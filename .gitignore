@@ -1,0 +1,33 @@
+.venv_research/
+__pycache__/
+*.pyc
+*.pyo
+
+# Earlier exploratory/local manuscript scripts; final public pipeline is
+# src/esg_return_modeling.py plus the curated manuscript and results folders.
+analysis_esg_returns.py
+build_esg_full_paper.py
+build_esg_paper.py
+build_final_research_paper.py
+build_q1_manuscript.py
+robust_esg_analysis.py
+q1_esg_analysis.py
+
+# Local/manual source files not needed in the public code package.
+CRA 76 final_FINAL.pdf
+minorproject_rework (1).docx
+springerformat.pdf
+Asia us eu_1.csv
+build_q1_manuscript.py
+manuscript/
+references/
+
+# Local data and generated results are reproducible but not tracked.
+data/
+results/
+
+# Legacy local output folders retained for audit but not published.
+outputs/
+
+# Temporary Office files.
+~$*
